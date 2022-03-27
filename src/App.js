@@ -49,6 +49,7 @@ export default function App() {
           onChange={callMeDebounce}
         />
         {/* <input type="text" onChange={callMeThrottle} /> */}
+           <button className="btn">Button</button>
       </div>
     </div>
   );
